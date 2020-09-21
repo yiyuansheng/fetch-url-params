@@ -1,7 +1,7 @@
 {
-  "name": "fetch-params",
+  "name": "fetch-url-params",
   "version": "1.0.0",
-  "description": "获取地址栏完整参数，包括query和hash的参数",
+  "description": "获取地址栏完整参数，包括hash的参数",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,21 +1,21 @@
 # fetch-params
-获取完整的地址栏参数，包括hash部分
-如：https://www.npmjs.com/search?q=get-url-params/#/index?id=1
-结果：{ q: 'get-url-params', id: '1' }
+获取完整的地址栏参数，包括hash部分  
+如：https://www.npmjs.com/search?q=fetch-url-params/#/index?id=1  
+结果：{ q: 'fetch-url-params', id: '1' }
 
 # install
-npm install -S fetch-params
+npm install -S fetch-url-params
 
 #github
-https://github.com/yiyuansheng/fetch-params.git
+https://github.com/yiyuansheng/fetch-url-params.git  
 
 #usage
-let fetchParams = require('./index')
-let params = fetchParams(url)
+import fetchUrlParams from 'fetch-url-params'  
+let params = fetchParams(url)  
 console.log(params)
 
 # 传参
-let fetchParams = require('./index')
-let url = 'https://www.npmjs.com/search?q=get-url-params/#/index?id=1'
-let params = fetchParams(url)
-console.log(params) // { q: 'get-url-params', id: '1' }
+import fetchUrlParams from 'fetch-url-params'  
+let url = 'https://www.npmjs.com/search?q=fetch-url-params/#/index?id=1'  
+let params = fetchUrlParams(url)  
+console.log(params) // { q: 'fetch-url-params', id: '1' }

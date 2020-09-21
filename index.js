@@ -1,4 +1,4 @@
-function fetchParams(url) {
+function fetchUrlParams(url) {
   let search = ''
   let hash = ''
   if (url) { // 传入地址
@@ -42,4 +42,4 @@ function fetchParams(url) {
   return params
 }
 
-module.exports = fetchParams
+module.exports = fetchUrlParams
