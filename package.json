@@ -1,0 +1,11 @@
+{
+  "name": "fetch-params",
+  "version": "1.0.0",
+  "description": "获取地址栏完整参数，包括query和hash的参数",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "胜哥",
+  "license": "ISC"
+}
