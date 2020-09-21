@@ -6,10 +6,10 @@
 # install
 npm install -S fetch-url-params
 
-#github
+# github
 https://github.com/yiyuansheng/fetch-url-params.git  
 
-#usage
+# usage
 import fetchUrlParams from 'fetch-url-params'  
 let params = fetchParams(url)  
 console.log(params)
